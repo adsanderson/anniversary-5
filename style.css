@@ -1,7 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Caveat');
 
 h1, h2 {
-  font-family: Lato;
+  background: white;
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 3px;
 }
 
 html, body {
@@ -10,11 +13,12 @@ html, body {
   margin: 0;
   background-image: url(https://res.cloudinary.com/lazydayed/image/upload/v1553020925/annieandadam/seamless-wood-texture-5.jpg);
   background-size: 100vw;
+   font-family: 'Caveat', cursive;
 }
 
 .app {
   display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
     grid-gap: 10px;
     grid-auto-rows: minmax(180px, auto);
     grid-auto-flow: dense;
@@ -42,6 +46,7 @@ html, body {
   border-radius: 3px;  
   padding: 1rem;
   width: 100%;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
 
 .picture  img {
@@ -50,7 +55,7 @@ html, body {
 .footer-label {
   text-align: center;
   background: white;
- font-family: 'Caveat', cursive;
+
   padding: 1rem 0 0 0;
 }
 
