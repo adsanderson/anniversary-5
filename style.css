@@ -5,6 +5,7 @@ h1, h2 {
   margin: 1rem;
   padding: 1rem;
   border-radius: 3px;
+text-align: center;
 }
 
 html, body {
@@ -18,7 +19,7 @@ html, body {
 
 .app {
   display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(380px, 1fr));
     grid-gap: 10px;
     grid-auto-rows: minmax(180px, auto);
     grid-auto-flow: dense;
@@ -37,17 +38,41 @@ html, body {
     position: relative;
 }
 
+.picture:nth-child(1) {
+  transform: rotate(5deg);
+}
+.picture:nth-child(2) {
+  transform: rotate(2deg);
+}.picture:nth-child(3) {
+  transform: rotate(-3deg);
+}.picture:nth-child(4) {
+  transform: rotate(4deg);
+}.picture:nth-child(5) {
+  transform: rotate(0deg);
+}
+.picture:nth-child(6) {
+  transform: rotate(3deg);
+}.picture:nth-child(7) {
+  transform: rotate(-2deg);
+}.picture:nth-child(8) {
+  transform: rotate(1deg);
+}.picture:nth-child(9) {
+  transform: rotate(-1deg);
+}
+
 .potrait {
     grid-row-end: span 2;    
 }
 
 .pic-inner {
+  box-sizing: border-box;
   background-color: white;
   border-radius: 3px;  
   padding: 1rem;
   width: 100%;
   box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
+
 
 .picture  img {
   width: 100%;
