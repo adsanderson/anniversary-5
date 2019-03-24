@@ -20,4 +20,16 @@ h1, h2 {
     color: #929796;
     background-color: #333;
     border-radius: 5px;
+    position: relative;
+}
+
+.pin {
+  background-image: url(https://res.cloudinary.com/lazydayed/image/upload/v1553072946/thumb-tack-png_291485_gcmtdd.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  top: 1rem;
+  left: 47%;
+  width: 18px;
+  height: 18px;
 }
